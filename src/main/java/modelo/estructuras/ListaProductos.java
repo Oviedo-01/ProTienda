@@ -76,18 +76,6 @@ public class ListaProductos {
     
         return false;
     }
-    // Obtener productos por categoría (para productos similares)
-    public List<Producto> obtenerPorCategoria(String categoria) {
-        List<Producto> productos = new ArrayList<>();
-        NodoProducto actual = inicio;
-        while (actual != null) {
-            if (actual.producto.getCategoria().equalsIgnoreCase(categoria)) {
-                productos.add(actual.producto);
-            }
-            actual = actual.siguiente;
-        }
-        return productos;
-    }
     
     // Obtener todos los productos (para mostrar catálogo)
     public List<Producto> obtenerTodos() {

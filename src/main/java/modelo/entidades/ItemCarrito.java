@@ -5,20 +5,18 @@
 package modelo.entidades;
 
 /**
- *
+ *Representa un producto individual dentro del carrito de compras o dentro de una compra finalizada
  * @author estra
  */
 public class ItemCarrito {
     private Producto producto;
     private int cantidad;
     
-    // Constructor
     public ItemCarrito(Producto producto, int cantidad) {
         this.producto = producto;
         this.cantidad = cantidad;
     }
     
-    // Getters y Setters
     public Producto getProducto() {
         return producto;
     }

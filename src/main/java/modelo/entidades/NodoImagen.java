@@ -7,6 +7,8 @@ package modelo.entidades;
 /**
  *
  * @author estra
+ * Se crea un nuevo nodo con la ruta de la imagen, inicializando siguiente y anterior en null.
+* ListaImagenesCircular Se encarga de los enlaces
  */
 public class NodoImagen {
     public String rutaImagen;

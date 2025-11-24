@@ -10,13 +10,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Cola (Queue) para gestionar el historial de compras
+ * Cola para gestionar el historial de compras
  * FIFO: First In, First Out
- * Las compras más antiguas están al frente
  */
 public class ColaHistorial {
-    private NodoCompra frente;
-    private NodoCompra atras;
+    private NodoCompra frente; //Apunta al primer nodo de la cola (la compra más antigua)
+    private NodoCompra atras; //Apunta al último nodo de la cola (la compra más reciente)
     private int tamaño;
     
     // Constructor
@@ -60,7 +59,7 @@ public class ColaHistorial {
         return compra;
     }
     
-    // Frente: Ver la compra del frente sin eliminarla
+    // Frente: Ver la compra del frente 
     public Compra frente() {
         if (frente != null) {
             return frente.compra;

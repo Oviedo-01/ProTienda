@@ -14,12 +14,11 @@ import java.util.List;
  * Cada usuario tiene su propio CarritoManager
  */
 public class CarritoManager {
-    private ListaCarrito carrito;
-    private String archivoCarrito;
-    private String nombreUsuario;
+    private ListaCarrito carrito; //estructura de datos que almacena los items del carrito en memoria
+    private String archivoCarrito; //Ruta del archivo donde se persiste el carrito del usuario
+    private String nombreUsuario; // Nombre del usuario propietario de este carrito
     private ProductoManager productoManager;
     
-    // Constructor
     public CarritoManager(String nombreUsuario, ProductoManager productoManager) {
         this.nombreUsuario = nombreUsuario;
         this.productoManager = productoManager;

@@ -18,7 +18,6 @@ public class PilaDeseos {
     private NodoProducto tope;
     private int tamaño;
     
-    // Constructor
     public PilaDeseos() {
         this.tope = null;
         this.tamaño = 0;

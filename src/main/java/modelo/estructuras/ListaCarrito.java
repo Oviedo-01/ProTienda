@@ -74,7 +74,7 @@ public class ListaCarrito {
         return total;
     }
     
-    // Obtener todos los items (para mostrar en interfaz)
+    // Obtener todos los items (para mostrarlos)
     public List<ItemCarrito> obtenerTodos() {
         List<ItemCarrito> items = new ArrayList<>();
         NodoItemCarrito actual = inicio;

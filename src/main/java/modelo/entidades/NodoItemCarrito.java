@@ -5,7 +5,8 @@
 package modelo.entidades;
 
 /**
- *
+ *permite crear y mantener una lista ordenada de todos los productos que el usuario ha agregado a su carrito, 
+ * conservando el orden en que fueron agregados. Cada nodo almacena un ItemCarrito (producto + cantidad)
  * @author estra
  */
 public class NodoItemCarrito {

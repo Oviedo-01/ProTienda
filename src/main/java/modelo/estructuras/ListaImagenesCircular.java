@@ -8,7 +8,7 @@ import modelo.entidades.NodoImagen;
 import java.util.ArrayList;
 import java.util.List;
 /**
- *
+ *gestiona la galería de imágenes de un producto. Permite navegación infinita en ambas direcciones (adelante y atrás)
  * @author estra
  */
 public class ListaImagenesCircular {

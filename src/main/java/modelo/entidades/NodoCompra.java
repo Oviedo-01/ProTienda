@@ -5,7 +5,7 @@
 package modelo.entidades;
 
 /**
- *
+ *utilizado para construir la estructura de datos Cola de Historial de Compras. 
  * @author estra
  */
 public class NodoCompra {

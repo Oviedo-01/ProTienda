@@ -5,7 +5,7 @@
 package modelo.entidades;
 
 /**
- *
+ *Es el contenedor utilizado para construir la Lista Enlazada Simple de Usuarios Registrados.
  * @author estra
  */
 public class NodoUsuario {

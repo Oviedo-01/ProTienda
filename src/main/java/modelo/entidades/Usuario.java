@@ -5,16 +5,16 @@
 package modelo.entidades;
 
 /**
- *
+ *Representa una cuenta de usuario en el sistema, almacenando credenciales de acceso, información personal y rol de permisos. 
  * @author estra
  */
 public class Usuario {
     private String nombre;
     private String email;
     private String contraseña;
-    private String rol; // NUEVO: "usuario" o "admin"
+    private String rol; // "usuario" o "admin"
     
-    // Constructor completo (con rol)
+    // Constructor (con rol)
     public Usuario(String nombre, String email, String contraseña, String rol) {
         this.nombre = nombre;
         this.email = email;
@@ -61,7 +61,7 @@ public class Usuario {
         this.rol = rol;
     }
     
-    // Métodos de utilidad
+    // Métodos de utilidad o validacion
     public boolean validarContraseña(String contraseña) {
         return this.contraseña.equals(contraseña);
     }

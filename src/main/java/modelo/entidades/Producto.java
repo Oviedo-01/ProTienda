@@ -7,7 +7,7 @@ package modelo.entidades;
 import modelo.estructuras.ListaImagenesCircular;
 
 /**
- *
+ *Representa un producto del catálogo de la tienda con toda su información (datos básicos, inventario, categorización)
  * @author estra
  */
 public class Producto {
@@ -18,7 +18,7 @@ public class Producto {
     private int stock;
     private String categoria;
     private ListaImagenesCircular listaImagenes;
-    private NodoImagen imagenActual;
+    private NodoImagen imagenActual; //Apuntador al nodo de la imagen que se está mostrando actualmente. 
     
     // Constructor
     public Producto(int id, String nombre, double precio, String descripcion, int stock, String categoria) {
@@ -95,7 +95,7 @@ public class Producto {
     }
     
     public ListaImagenesCircular getListaImagenes() {
-        return listaImagenes;
+        return listaImagenes; 
     }
     
     // toString para guardar en archivo

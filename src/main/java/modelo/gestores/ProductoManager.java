@@ -32,10 +32,6 @@ public class ProductoManager {
         return productos.obtenerProducto(id);
     }
     
-    // Obtener productos similares (misma categoría)
-    public List<Producto> obtenerSimilares(String categoria) {
-        return productos.obtenerPorCategoria(categoria);
-    }
     
     // Agregar nuevo producto al catálogo
     public void agregarProducto(Producto producto) {
