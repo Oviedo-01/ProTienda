@@ -64,9 +64,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         mostrarPanel(new PanelTienda(this, usuarioActual, productoManager));
     }
     
-    public void mostrarPanelAdmin(){
-        mostrarPanel(new PanelAdmin(this, usuarioActual, productoManager, usuarioManager));
-    }
+    //public void mostrarPanelAdmin(){
+     //   mostrarPanel(new PanelAdmin(this, usuarioActual, productoManager, usuarioManager));
+    //}
     
         // ========== GETTERS Y SETTERS ==========
     

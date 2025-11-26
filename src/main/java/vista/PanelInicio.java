@@ -10,7 +10,6 @@ package vista;
  */
 public class PanelInicio extends javax.swing.JPanel {
     
-        // ========== ATRIBUTOS ==========
     private VentanaPrincipal ventanaPrincipal;
 
     /**

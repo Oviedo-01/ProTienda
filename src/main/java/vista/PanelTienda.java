@@ -152,24 +152,24 @@ public class PanelTienda extends javax.swing.JPanel {
         mostrarSubPanel(subPanelCarrito);
     }
     
-    private void mostrarDeseos() {
-        SubPanelDeseos subPanelDeseos = new SubPanelDeseos(
-            this,
-            deseosManager,
-            carritoManager,
-            productoManager
-        );
-        mostrarSubPanel(subPanelDeseos);
-    }
+ //   private void mostrarDeseos() {
+    //    SubPanelDeseos subPanelDeseos = new SubPanelDeseos(
+      //      this,
+       //     deseosManager,
+        //    carritoManager,
+         //   productoManager
+       // );
+        //mostrarSubPanel(subPanelDeseos);
+    //}
 
     
-    public void mostrarHistorial() {
-        SubPanelHistorial subPanelHistorial = new SubPanelHistorial(
-            this,
-            historialManager
-        );
-        mostrarSubPanel(subPanelHistorial);
-    }
+   // public void mostrarHistorial() {
+      //  SubPanelHistorial subPanelHistorial = new SubPanelHistorial(
+       //     this,
+         //   historialManager
+      //  );
+      //  mostrarSubPanel(subPanelHistorial);
+   // }
     
     // ========== MÉTODO PARA REGISTRAR COMPRA EN HISTORIAL ==========
 
@@ -186,11 +186,11 @@ public class PanelTienda extends javax.swing.JPanel {
     }//GEN-LAST:event_btnCarritoActionPerformed
 
     private void btnDeseosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeseosActionPerformed
-        mostrarDeseos();
+//        mostrarDeseos();
     }//GEN-LAST:event_btnDeseosActionPerformed
 
     private void btnHistorialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHistorialActionPerformed
-        mostrarHistorial();
+//        mostrarHistorial();
     }//GEN-LAST:event_btnHistorialActionPerformed
 
     private void btnCerrarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCerrarSesionActionPerformed
