@@ -10,7 +10,6 @@ package vista;
  */
 public class PanelLogin extends javax.swing.JPanel {
 
-     // ========== ATRIBUTOS ==========
     private VentanaPrincipal ventanaPrincipal;
     
     
@@ -112,7 +111,7 @@ public class PanelLogin extends javax.swing.JPanel {
         // Verificar el rol del usuario
         if (usuario.esAdministrador()) {
             //Si es admin, ir al panel de administrador
-           // ventanaPrincipal.mostrarPanelAdmin();
+            ventanaPrincipal.mostrarPanelAdmin();
         } else {
             // Si es usuario normal, ir a la tienda
             ventanaPrincipal.mostrarPanelTienda();
