@@ -1,0 +1,3 @@
+Admin|admin@tienda.com|admin123|admin
+Luis estrada|estrada@gmail.com|12345|usuario
+Luis Estrada|ejemplo@gmail.com|12345|usuario

@@ -1,0 +1,2 @@
+2|Zapatillas Air|400.0|Lo mas exclusivo, materiales de primera|4|Zapatos|C:\Users\estra\Downloads\prueba_04.jpg;C:\Users\estra\Downloads\prueba_05.jpg
+3|Nike Solus|350.0|Zapatillas con material cronamito|10|Zapatos|C:\Users\estra\Downloads\prueba_07.jfif

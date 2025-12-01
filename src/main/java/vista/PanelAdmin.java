@@ -129,11 +129,11 @@ public class PanelAdmin extends javax.swing.JPanel {
     }//GEN-LAST:event_btnVerUsuariosActionPerformed
 
     private void btnHistorialGlobalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHistorialGlobalActionPerformed
-     //   mostrarHistorialGlobal();
+        mostrarHistorialGlobal();
     }//GEN-LAST:event_btnHistorialGlobalActionPerformed
 
     private void btnEstadisticasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEstadisticasActionPerformed
-     //   mostrarEstadisticas();
+        mostrarEstadisticas();
     }//GEN-LAST:event_btnEstadisticasActionPerformed
 
     private void btnCerrarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCerrarSesionActionPerformed
@@ -197,13 +197,13 @@ public class PanelAdmin extends javax.swing.JPanel {
         mostrarSubPanel(new SubPanelUsuarios(this, usuarioManager));
     }
 
-    //private void mostrarHistorialGlobal() {
-      //  mostrarSubPanel(new SubPanelHistorialGlobal(this, usuarioManager, productoManager));
-    //}
+    private void mostrarHistorialGlobal() {
+        mostrarSubPanel(new SubPanelHistorialGlobal(this, usuarioManager, productoManager));
+    }
 
-    //private void mostrarEstadisticas() {
-     //   mostrarSubPanel(new SubPanelEstadisticas(this, usuarioManager, productoManager));
-    //}
+    private void mostrarEstadisticas() {
+        mostrarSubPanel(new SubPanelEstadisticas(this, usuarioManager, productoManager));
+    }
 
     // ========== GETTERS ==========
 
